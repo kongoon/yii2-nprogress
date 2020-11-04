@@ -21,10 +21,10 @@ class NProgressAsset extends AssetBundle
 
     public $sourcePath = '@bower/nprogress';
     public $css = [
-        'nprogress.css',
+        'css/nprogress.css',
     ];
     public $js = [
-        'nprogress.js'
+        'src/nprogress.js'
     ];
     public $jsOptions = [
         'position' => View::POS_END
